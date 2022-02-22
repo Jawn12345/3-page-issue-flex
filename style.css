@@ -17,10 +17,13 @@ body {
 .hd1 {
     height: 400px;
     background-image: url(https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/loggerhead_sea_turtle_hatchling_peter_pattavina-fws_header.jpg?itok=959g6Vew);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*text-align: center;*/
     border: 2px solid white;
-    /*vertical-align: middle;*/
-    line-height: 370px;
+    /*vertical-align: middle;
+    line-height: 370px;*/
     font-size: 2em;
 }
 
@@ -44,7 +47,8 @@ h2 {
 }
 
 .navbar li {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: inline-flex;
     border-right: 2px solid gray;
     padding-left: 30px;
     padding-right: 30px;
@@ -52,8 +56,7 @@ h2 {
 
 .navbar li a {
     color: white;
-    display: block;
-    /*padding: 9.5px;*/
+    /* display: block; */
     padding: 5px;
     text-decoration: none;
 }
@@ -71,9 +74,28 @@ li a:active {
     background-color: black;
 }
 
+.indexpage {
+  display: flex;
+  flex-direction: column;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+}
+
 .content {
     background-color: skyblue;
-    /*text-align: center;*/
     padding: 0px;
     padding-left: 10px;
     border: 2px solid white;
@@ -135,11 +157,15 @@ li a:active {
     background-color: white;
     padding: 10px;
     border: 2px solid mediumseagreen;
+    display: flex;
+    flex-direction: column;
 }
 
 .content3_1 {
     background-color: red;
-    width: 90px;
+    /* width: 90px; */
+    width: 8%;
+    padding: 0px;
 }
 
 .content3_1 a {
@@ -151,16 +177,24 @@ li a:active {
     color: black;
 }
 
+.content_shop_title {
+    display: flex;
+}
+
 .content3_2 {
-    display: inline-block;
-    margin-top: 10px;
+    /*display: inline-block;*/
+    display: inline-flex;
+    flex-direction: column;
+    width: 15%;
+    /* margin-top: 10px; */
     background-color: white;
     padding: 10px;
+    padding-left: 0px;
 }
 
 .content3_3 {
     background-color: red;
-    width: 100px;
+    width: 50%;
 }
 
 .content3_3 a {
@@ -173,16 +207,35 @@ li a:active {
 }
 
 .content3_4 {
-    display: inline-block;
+    /* display: inline-block; */
+    display: inline-flex;
+    flex-direction: column;
+    width: 15%;
     background-color: white;
     padding: 10px;
 }
 
 .content3_5 {
-    display: inline-block;
+    /* display: inline-block; */
+    display: inline-flex;
+    flex-direction: column;
+    width: 15%;
     background-color: white;
     padding: 10px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
+}
+
+.img_plushie1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_plushie2 img {
+    width: 65%;
+}
+
+.img_plushie3 img {
+    width: 100%;
 }
 
 .content4 {
