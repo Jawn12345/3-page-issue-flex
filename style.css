@@ -19,7 +19,7 @@ body {
     background-image: url(https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/loggerhead_sea_turtle_hatchling_peter_pattavina-fws_header.jpg?itok=959g6Vew);
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     /*text-align: center;*/
     border: 2px solid white;
     /*vertical-align: middle;
