@@ -249,11 +249,28 @@ li a:active {
     margin-bottom: 10px;
 }
 
+.content4parent {
+    display: flex;
+    flex-direction: row;
+}
+
 .content4 {
   background-color: mediumseagreen;
   padding: 10px;
   border: 2px solid white;
+  /* border-radius: 100%; */
   padding-top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.content4info {
+    display: flex;
+    justify-content: center;
 }
 
 .content4_1 {
@@ -261,6 +278,12 @@ li a:active {
   padding: 10px;
   border: 2px solid white;
   padding-top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .content4 ul {
