@@ -15,7 +15,7 @@ body {
 }
 
 .hd1 {
-    height: 400px;
+    height: 250px;
     background-image: url(https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/loggerhead_sea_turtle_hatchling_peter_pattavina-fws_header.jpg?itok=959g6Vew);
     display: flex;
     justify-content: center;
@@ -32,13 +32,18 @@ h2 {
 }
 
 .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: seagreen;
     padding: 0;
     /*text-shadow: 0.05px 0.05px white;*/
     border: 2px solid white;
     height: 100%; /*60px;*/
+    height: 80px;
     margin-bottom: 20px;
-    font-size: 1.75em;
+    /* font-size: 1.75em; */
+    font-size: 1.5em;
 }
 
 .navbar ul {
