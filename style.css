@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-size: 1.1em;
+    background-color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_134/v1633552438/shape/mentalfloss/651042-gettyimages-1326020302.jpg?itok=2UgAvHga);
+}
+
+.hd1 {
+    height: 400px;
+    background-image: url(https://defenders.org/sites/default/files/styles/meta_image/public/2019-04/loggerhead_sea_turtle_hatchling_peter_pattavina-fws_header.jpg?itok=959g6Vew);
+    text-align: center;
+    border: 2px solid white;
+    /*vertical-align: middle;*/
+    line-height: 370px;
+    font-size: 2em;
+}
+
+h2 {
+    text-shadow: 0.5px 0.5px white;
+}
+
+.navbar {
+    background-color: seagreen;
+    padding: 0;
+    /*text-shadow: 0.05px 0.05px white;*/
+    border: 2px solid white;
+    height: 100%; /*60px;*/
+    margin-bottom: 20px;
+    font-size: 1.75em;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    border-right: 2px solid gray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar li a {
+    color: white;
+    display: block;
+    /*padding: 9.5px;*/
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: lightgreen;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: seagreen;
+}
+
+li a:active {
+    background-color: black;
+}
+
+.content {
+    background-color: skyblue;
+    /*text-align: center;*/
+    padding: 0px;
+    padding-left: 10px;
+    border: 2px solid white;
+}
+
+.content2_1 {
+    background-color: mediumseagreen;
+    padding: 10px;
+    border: 2px solid white;
+    padding-top: 0px;
+}
+
+.head2 {
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    width: 25%;
+    /*border-top: 6px solid gray;*/
+    border-bottom: 4px solid gray;
+}
+
+.head3 {
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    width: 40%;
+    /*border-top: 4px solid gray;*/
+    border-bottom: 4px solid gray;
+}
+
+.img1 img {
+    width: 60%;
+}
+
+.content2_2 {
+    background-color: skyblue;
+    padding: 10px;
+    border: 2px solid white;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+.content2_3 {
+    background-color: mediumseagreen;
+    padding: 10px;
+    border: 2px solid white;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+.shop {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid mediumseagreen;
+}
+
+.content3 {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid mediumseagreen;
+}
+
+.content3_1 {
+    background-color: red;
+    width: 90px;
+}
+
+.content3_1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content3_1 a:hover {
+    color: black;
+}
+
+.content3_2 {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.content3_3 {
+    background-color: red;
+    width: 100px;
+}
+
+.content3_3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content3_3 a:hover {
+    color: black;
+}
+
+.content3_4 {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+}
+
+.content3_5 {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.content4 {
+  background-color: mediumseagreen;
+  padding: 10px;
+  border: 2px solid white;
+  padding-top: 0px;
+}
+
+.content4_1 {
+  background-color: mediumseagreen;
+  padding: 10px;
+  border: 2px solid white;
+  padding-top: 0px;
+}
+
+.content4 ul {
+    color: black;
+}
+
+.End {
+    margin-top: 20px;
+    background-color: black;
+    color: gray;
+    padding: 20px;
+}
