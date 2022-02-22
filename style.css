@@ -66,9 +66,14 @@ li a:hover {
     background-color: lightgreen;
 }
 
-.navbar a:hover:not(.active) {
-    background-color: seagreen;
+.navbar a:hover {
+    background-color: white;
+    color: mediumseagreen;
 }
+
+/* .navbar a:hover:not(.active) {
+    background-color: seagreen;
+} */
 
 li a:active {
     background-color: black;
